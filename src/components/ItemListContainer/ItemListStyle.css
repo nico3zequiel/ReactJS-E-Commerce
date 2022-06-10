@@ -1,0 +1,9 @@
+.itemsList {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+  color: rgb(255, 255, 255);
+  font-size: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

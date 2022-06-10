@@ -1,9 +1,11 @@
 import React from "react";
-/* import NavStyles from "./NavStyles"; */
+import CartWidget from "../cartWidget/cartWidget";
+import ItemListContainer from "../ItemListContainer/ItemListContainer";
 
 const NavBar = () => {
   return (
     <div>
+      <CartWidget />
       <nav>
         {/* LINK AL HOME */}
         <h1 className="list">E-Store</h1> {/* LOGO PROVISORIO */}
@@ -15,6 +17,8 @@ const NavBar = () => {
           <li className="list">Contacto</li>
         </ul>
       </nav>
+
+      <ItemListContainer />
     </div>
   );
 };

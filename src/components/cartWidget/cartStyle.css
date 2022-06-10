@@ -1,0 +1,7 @@
+.WidgetShop {
+  display: flex;
+  margin-top: 50px;
+  margin-right: 100px;
+  justify-content: flex-end;
+  font-size: small;
+}
